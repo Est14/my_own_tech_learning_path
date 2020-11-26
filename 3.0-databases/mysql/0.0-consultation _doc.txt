@@ -1,0 +1,26 @@
+SQL es un** lenguaje de programación orientado a consultas** de bases de datos
+(Structured Query Language)
+
+MySQL es un sistema de administración de bases de datos 
+(Database Management System, DBMS) o también llamado motor de bases de datos.
+
+1. sudo mysql -u root -h localhost -p  //  Para entrar a la base de datos.
+2. show databases;  // Muestra las bases de datos existentes.
+3. use <database_name>  // accedemos a una base de datos.
+4. show tables;  // show the table in the Database.
+5. select database();  // show the current database.
+6. CREATE database <database_name>;  // Crea base de datos
+7. CREATE DATABASE IF NOT EXISTS <database_name> // The same.
+8. show warnings // Show the warnings
+9. use <database_name> // usar una base de datos.
+10. CREATE TABLE <table_name> // with this command we can create table 
+11. show table; // Show the table in the database
+12. drop table <table_name> // Delete de table pleas CAREFULL when use it.
+13. describe <table_name> // Describe the content of table
+14. show full columns from <table_name> // Describe all columns in the table.
+15. select * from <table_name> // show the content of table
+16. select * from <table_name> where id = 4 \G
+17. sudo mysql -u root -h localhost -p < file.sql  // Si tenemos todos los datos organizados
+esto crea la base de datos y su contenido. 
+18. sudo mysql -u root -h localhost -p -D <database_name> < file.sql  // En caso de que solo hallamos creado el schema
+con estos comandos mandamos la data relacionando el nombre de la base de datos

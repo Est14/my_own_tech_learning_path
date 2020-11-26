@@ -1,0 +1,20 @@
+• A: Atomicity – Atomicidad -> Separar las funciones desarrolladas en la BD como pequeñas
+  tareas y ejecutarlas como un todo. Si alguna tarea 
+  falla se hace un rollback(Se deshacen los cambios)
+
+• C: Consistency – Consistencia -> Todo lo que se desarrolló en base al objeto relacional. 
+  Los datos tienen congruencia
+
+• I: Isolation – Aislamiento -> Varias tareas ejecutándose al mismo tiempo dentro de la BD
+
+• D: Durability – Durabilidad -> Puedes tener seguridad que la información no se perderá 
+  por un fallo catastrófico. PostgreSQL guarda la información en una Bitácora
+
+
+1. sudo -u postgres psql  -- Ingresar a PostgreSQL
+2. \l   -- Lista las bases de datos
+3. \?  -- Muestra todos los comandos de \
+4. \c <database_name> -- Cambiamos de base de datos
+5. \dt  -- Ya en la base de datos miramos su configuracion tablas y demas
+6. \d <table_name> -- Para consultar una tabla en especifico
+7. SELECT version();  -- Consultamos la version de Postgres

@@ -1,0 +1,113 @@
+A Little introduction
+
+tty -- Show the current terminal
+ps  --  Show the processes that are runing
+kill - 9  -- Kill a proccess
+who and w  -- Show how many users are connect
+
+
+Verification and Monitoring proccess
+
+ps  --  Show all proccesses are runing
+ps aux  --  The same that ps but sho more information
+ps aux | grep esteban  --  Wit this pipe we can to filter the proccesses by user 
+jobs  --  Show all processes that are stoped
+fg  --  Return a proccess that is stoped
+&  --  If we don't want to lose the console use & in the end of the setence
+nohup <setence> &  --  This ejecute the setence and keep the exit in a file nohup.out
+
+
+Monitoring resources' system
+
+top  -- Show in a GUI many information about the resources in the system
+cat /proc/cpuinfo | grep "processor"  --  Show info about CPU
+free -h  --  Show info about of RAM
+sudo du -hsc /   --  Show info about the HARD-DISK
+sudo ps auxf | sort -nr -k 3 | head -5  --  Show the top 5 processes more comsume resources
+htop  --  Is an increble GUI that show all processes
+
+
+Analysis of network parameters
+
+ifconfig  --  Show the IP
+hostname  --  Show the name of the host
+route -n   --  Show the port to connect to internet
+nslookup google.com  --  Show the data of another host 
+
+
+Debian package management
+
+dpkg -l  --  List all dep installed in the machine
+dpkg -i  --  Install a dep 
+dpkg -r  --  Remove a dep in the system
+dpkg-reconfigure <de>  --  Reconfigure a system
+apt install  --  Install a package
+
+wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.4.tar.gz -O nagioscore.tar.gz
+tar xvzf nagioscore.tar.gz  --  Unzip and unpack 
+./configure --with-https-conf=/etc/apache2/sites-enabled
+make all
+make install
+
+
+The Users 
+
+id  --  Show the users 
+whoami   --  Show the user thet we are using 
+cat /etc/passwd  --  Show all users that have been created
+cat /etc/shadow  --  Show the password of all users
+passwd <user_name>  --  For change the password of some user
+useradd <new_user>  --  to create a new user 
+adduser <new_user>  --  Create a new user and give password and create a home
+userdel <user_name>  --  Delete a user
+su - <user_name>  --  change the user
+groups <user_name>  --  Show the group taht the user belong
+gpasswd -a <user_name> sudo  --  With this add an user to sudo group 
+gpasswd -d <user_name> sudo  --  Remove the user of sudo group 
+
+--------  PAM ------------
+
+
+
+CentOS package management
+
+rpm -q  --  Show all packages
+yum update  --  Update packages
+yum search htop  --  Show a package
+
+
+
+
+
+
+
+
+
+##### Comands #####
+
+System information
+
+uname -m   --  Show the architecth of computer
+uname -r  --  Kernel information
+
+Power off
+
+init 0  --  System power off
+shutdown -h hours:minutes &  -- Progra a power off
+shutdown -c  --  Cancel power off
+reboot  --  Reboot the system
+logout  --  Closed session
+
+
+Files and Directories
+
+cd ../..  --  Return two levels 
+mkdir -p /tmp/dir1/dir2  --  Create a tree of Directories
+cp dir/* .  --  Copy all files from a directory into the current working directory
+cp -a /tmp/dir1 .  --  Copy a directory within the current working directory
+
+
+Find files
+
+find / -name file1  --  Search for file and directory starting from the root of the system.
+find /home/user1 -name \*.bin  --  Search for files with ‘. bin 'inside the directory' / home / user1 '.
