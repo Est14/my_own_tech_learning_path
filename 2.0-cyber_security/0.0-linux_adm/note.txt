@@ -65,10 +65,42 @@ groups <user_name>  --  Show the group taht the user belong
 gpasswd -a <user_name> sudo  --  With this add an user to sudo group 
 gpasswd -d <user_name> sudo  --  Remove the user of sudo group 
 
---------  PAM ------------
+
+
+Authentication of clients and servers over SSH
+
+vim /etc/ssh/sshd_config  --  Config something with ssh
+    PermitRootLogin no
+    AllowUsers user_name
+ssh-keygen -t rsa -b 4096  -- To create a public and private key
+ssh -copy-id -i ~/.ssh/id_rsa.pub user_name@ip_adress_of_server  --  copy the public password
+ssh user_name@ip_adress_of_server  --  To connect remotly
+
+
+DNS 
+
+sudo apt install aptitude
+sudo apt-get install bind9 bind9utils bind9-doc  --  Install bind9 to manage DNS 
+
+
+Start, stop and reload services
+
+sudo systemctl status <service>  --  State of service
+sudo systemctl enable <service>  -- aneble a service this mean that the service start when turn on the system
+sudo systemctl disable servicio: Disable a service 
+sudo systemctl start servicio: Turn on the service
+sudo systemctl stop servicio: Turn off the service
+sudo systemctl restart servicio: Rreebot a services
+sudo systemctl list-units -t service --all  --  List the services in our system 
+sudo journalctl -fu <service>: Muestra el log de un servicio
+sudo journalctl --disk-usage: Muestra cuanto pesan los logs en el sistema operativo
+sudo journalctl --list-boots: Muestra los booteos de la computadora
+sudo journalctl -p critic|notice|info|warning|error: Muestra mensajes de determinada categoría de nuestros logs
+sudo journalctl -o json: Muestra los logs en formato json
 
 
 
+----------------------------------------------------------------------------------------------------------
 CentOS package management
 
 rpm -q  --  Show all packages
@@ -79,10 +111,7 @@ yum search htop  --  Show a package
 
 
 
-
-
-
-
+----------------------------------------------------------------------------------------------------------
 ##### Comands #####
 
 System information
