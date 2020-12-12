@@ -62,6 +62,7 @@ function overAge(person){
     return person.age >= ADULT
 }
 
+
 function printAge(person){
     if (overAge(person)){
         console.log(`${person.name} is ${person.age} years old, is adult`)

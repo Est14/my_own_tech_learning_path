@@ -13,7 +13,5 @@ var otherPerson = {
 }
 
 esteban == otherPerson  // This is false 
-
 person_3 = esteban
-
 person_3 == esteban // This is true because point to seme space in memory
