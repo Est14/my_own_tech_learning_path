@@ -1,0 +1,61 @@
+GET: solicitar datos o algun recurso.
+HEAD: traer headers (como una peticion GET pero sin contenidos). 
+    Es util cuando vamos a utilizar APIs, para comprobar si lo que vamos a enviar esta correcto
+    y puede ser procesado.
+POST: enviar datos a un recurso para la creación.
+PUT: reemplazar por completo un recurso.
+PATCH: reemplazar parcialmente un recurso.
+DELETE: eliminar un recurso. Otra de las cosas que especifica el protocolo HTTP son los codigo de estado 
+    (status codes). Sirven para describir el estado de la peticion hecha al servidor.
+
+1xx: Indican que la peticion fue recibida y el servidor sigue trabajando en el proceso, es decir,
+     no fue exitosa ni fue errónea, sino que esta siendo procesada aun.
+2xx: Indican que la peticion fue recibida y procesada correctamente.
+3xx: Indican que hay que tomar acciones adicionales para completar la solicitud.
+    Por lo general estos codigos indican redireccion. Generalmente en los APIs no se usan
+    redirecciones porque no contienen estados, es decir, toda la informacion esta contenida en una solicitud, no se guarda un estado en el servidor con una sesion por ejemplo.
+4xx: Indican errores del lado del cliente, por ejemplo: se hizo mal la solicitud, faltan datos,
+    headers o cualquier otro error que pueda ocurrir.
+5xx: Indican errores del servidor. Suelen aparecer cuando existe un fallo en la ejecución en el servidor.
+    Los codigos mas comunes a la hora de interactuar con un API son:
+
+200: Todo esta OK.
+201: Todo OK cuando se hizo una solicitud POST, el recurso se creo y se guardo correctamente.
+204: Indica que la solicitud se completo correctamente pero no devolvio informacion.
+     Es muy comun cuando se hacen peticiones con el verbo DELETE.
+400: Bad Request, algo esta mal en la peticion. Se nos olvido enviar un dato o algo relacionado.
+    Por lo general la respuesta nos especifica cuales fueron los errores a la hora de hacer la peticion.
+401: Unauthorized, es decir, no estamos autorizados (autenticados) a realizar la peticion.
+403: Forbidden, yo no tengo acceso a ese recurso aunque este autenticado.
+404: Not Found, no existe el recurso que se esta intentando acceder.
+500: Interna Server Error, es un error que retorna el servidor cuando la solicitud no pudo ser procesada.
+    Por lo general, si no tenemos acceso al backend, no tenemos control sobre los errores 500
+    que retorna un API.
+
+
+__________GET______IN________Postman________:
+
+In postman we have a sheet named params where we can pass some params to organize better our Get 
+
+- ?page_size  is a variable that we used to get more or less results example ?page_size=1
+- ?page_size=1&page=2    with this we can access the result o the next page 
+- ?ordering=ranking  This orders from highest to lowest WARNING 'ranking' is a key of the API
+- ?ordering=-ranking This orders from lowest to highest  ''
+- ?begin_date=2019-11-23  This filter by date start with the date passed   
+
+
+__________POST______IN________Postman________:
+For entry to API we need to login first
+
+- http://localhost:8000/api/api-token-auth/ This is the uniform resource locator URL to pass values to login
+Then we need to pass the parameters so go to the body option click in raw and select json option then
+write the next in de editor part:
+{
+    "username": "superadmin",
+    "password": "ThisIs@SecurePassw0rd"
+}
+and everything is ok we get the token:
+{
+    "token": "aa245e66b18548f6078141f62c1fbb1d3d1abbf1"
+}
+The above are examples
