@@ -1,0 +1,19 @@
+{
+  "name": "2.0-asynchronism",
+  "version": "1.0.0",
+  "description": "asynchronism",
+  "main": "0.0-funtions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "callback",
+    "promise",
+    "sink"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
