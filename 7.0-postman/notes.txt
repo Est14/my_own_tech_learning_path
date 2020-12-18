@@ -45,7 +45,8 @@ In postman we have a sheet named params where we can pass some params to organiz
 
 
 __________POST______IN________Postman________:
-For entry to API we need to login first
+
+For entry to API we need to Autentification first.
 
 - http://localhost:8000/api/api-token-auth/ This is the uniform resource locator URL to pass values to login
 Then we need to pass the parameters so go to the body option click in raw and select json option then
@@ -59,3 +60,53 @@ and everything is ok we get the token:
     "token": "aa245e66b18548f6078141f62c1fbb1d3d1abbf1"
 }
 The above are examples
+
+
+__________OPTIONS______IN________Postman________:
+OPTIONS uses the same endpoint that GET uses and show us more relevant informacion
+
+
+__________PATH______IN________Postman________:
+
+With PATCH we can update an a part of the something in our API
+example:
+
+PATH http://localhost:8000/api/comments/1/ 
+In the sheet of body we select raw and json and add ne next
+{
+    "content": "A edited content"
+}
+remember that "content" is a key
+
+__________PUT______IN________Postman________:
+
+PUT works in the same way that PATH just the diferens is tha PUT update all
+
+PATH http://localhost:8000/api/comments/1/ 
+In the sheet of body we select raw and json and add ne next
+{
+    "content": "A edited content"
+    "likes": 100,
+    "material": 3
+}
+remember that "content" is a key
+
+
+__________DELETE______IN________Postman________:
+All verb uses the same URL in this case we can delete a comment like this:
+
+DELETE http://localhost:8000/api/comments/1/ 
+
+
+
+----------------------------- ENVIROMENTS IN POSTMAN  ------------------------------------
+For crea our enviroment just select the option create enviroment in the home page.
+Now we can crea a varible with the more use words example:
+URL_API = http://localhost:8000/api
+Token = aa245e66b18548f6078141f62c1fbb1d3d1abbf1
+
+--------------------------------------- COLLETION ----------------------------------------
+For crea our collections just select the option create enviroment in the home page.
+
+Inside de colecction we can add dirs and inside of then create Request
+Inside de collection we save our post to authentification

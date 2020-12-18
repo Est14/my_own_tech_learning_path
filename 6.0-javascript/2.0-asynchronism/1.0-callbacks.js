@@ -10,7 +10,7 @@ function getCharacters(id, callback){
         console.log(`Sorry an ERROR happened, could not get the character ${id}`)
     })
 }
-
+// Callback hell 
 getCharacters(1, function callback (luke){
         console.log(`Hello I\'m ${luke.name}`)
         getCharacters(2, function callback (luke){
