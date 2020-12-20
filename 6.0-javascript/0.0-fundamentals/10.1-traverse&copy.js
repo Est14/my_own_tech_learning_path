@@ -7,3 +7,7 @@ console.log(fruits);
 let copyFruits = fruits.slice();
 copyFruits.push('orange');
 console.log(copyFruits);
+
+// Anothe way
+const array1 = ['a', 'b', 'c'];
+array1.forEach(element => console.log(element));
