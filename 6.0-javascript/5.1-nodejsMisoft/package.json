@@ -1,0 +1,16 @@
+{
+  "name": "5.1-nodejsmisoft",
+  "version": "1.0.0",
+  "description": "My great nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "start": "./dist/index.js",
+    "test": "jest"
+  },
+  "author": "Esteban Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3"
+  }
+}
