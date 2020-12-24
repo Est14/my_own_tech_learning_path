@@ -1,4 +1,4 @@
-var fruits = ['Mango', 'Watermelon', 'Pine-apple']
+let fruits = ['Mango', 'Watermelon', 'Pine-apple']
 console.log(fruits)
 
 // Add element to end 

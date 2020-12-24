@@ -8,11 +8,11 @@ let validate1 = Array.isArray(newArray)
 console.log(newArray);
 
 // Array from an string
-var arrToStr = Array.from('Est')
+let arrToStr = Array.from('Est')
 console.log(arrToStr);
 
 // Array from an set
-var arrSet = new Set(fruits)
+let arrSet = new Set(fruits)
 console.log(arrSet);
 
 // And trhis is complety Great!!

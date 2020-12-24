@@ -8,7 +8,7 @@ for (const key of iterator) {
 }
 
 // Values
-var a = ['w', 'y', 'k', 'o', 'p'];
+const a = ['w', 'y', 'k', 'o', 'p'];
 const iterator1 = a.values();
 for (const value of iterator1) {
     console.log(value);
