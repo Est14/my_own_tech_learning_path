@@ -11,6 +11,9 @@ var esteban = {
 var otherPerson = {
     name: 'Esteban'
 }
+// && and
+// ||  or
+// !  False
 
 esteban == otherPerson  // This is false 
 person_3 = esteban
