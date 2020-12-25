@@ -1,0 +1,1 @@
+In Js just exist dinamic arrays
