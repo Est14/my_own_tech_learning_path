@@ -1,0 +1,19 @@
+{
+  "name": "api_chat",
+  "version": "1.0.0",
+  "description": "This is an API for build a chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "telegram",
+    "server"
+  ],
+  "author": "Esteban Martinez Fuentes",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
