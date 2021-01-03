@@ -1,4 +1,5 @@
-function strWs(str, char){
+strWs = (str, char) => {
+
 
     if (typeof str === 'string'){
         let arrN = str.split(' ')

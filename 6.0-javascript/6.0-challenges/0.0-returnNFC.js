@@ -1,12 +1,8 @@
-function returnNumberOfChar(arr){
 
-    if (typeof arr === 'string'){
-        for (var i = 0; i < arr.length; i++){
-        }
-        return i;
-    }
-    console.log('Por favor introduzca un string')    
-}
+const returnNumberOfChar = (arr = '') => (arr == '' || typeof arr != 'string') 
+? 'La cadena indresada no es valida'  : arr.length
+   
 
 console.log(returnNumberOfChar('Hola Mundo'))
 console.log(returnNumberOfChar(1))
+console.log(returnNumberOfChar())

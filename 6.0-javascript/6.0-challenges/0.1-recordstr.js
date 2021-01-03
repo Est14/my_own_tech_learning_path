@@ -1,4 +1,4 @@
-function recStr(arr, num){
+recStr = (arr = '', num = undefined) => {
 
         if (!(typeof arr === 'string'))
             return 'No ingreso una cadena de caracteres'
