@@ -5,10 +5,12 @@ public class Fundamentals {
         
         System.out.println("Hello Esteban this is a task");
 
-        var num = 1;
-        num = 5;
+        var num = 10;
 
-        System.out.println(num);
+        // Operador ternarios 
+        // var num2 = num <= 10 ? "Estas dentro de rango" : "Estas fuera de ranfo" ;
+
+        System.out.println(num <= 10 ? "Estas dentro de rango" : "Estas fuera de ranfo");
     }
     
 }
