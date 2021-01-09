@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macros %}
+
+{% block title %}
+{{ super()}}
+Welcome
+{% endblock %}
+
+
+{% block content %}
+    {% if user_IP %}
+    <h1>Hello form Flaskk you IP is {{ user_IP }}</h1>
+    {% else %}
+    <a href="{{ url_for('index')}}">Ir a home</a>
+    {% endif %}
+
+    <ul>
+        {% for todo in todos %} 
+        {{ macros.reder_todo(todo)}}
+        {% endfor %}
+    </ul>   
+
+{% endblock %}
