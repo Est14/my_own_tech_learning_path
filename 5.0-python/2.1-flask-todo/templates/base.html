@@ -1,17 +1,30 @@
-{% extends 'bootstrap/base.html' %}
-{% block head%}
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
-    <title>{% block title%} TODO | {% endblock %}</title>
-{% endblock %}
+{% extends 'bootstrap/base.html' %} {% block head%} {{super()}}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/style.css')}}"
+/>
+<title>{% block title%} TODO | {% endblock %}</title>
+{% endblock %} {% block body %}
+<!--menu-->
+{% block navbar %} {% include 'nav.html' %} {% endblock %}
 
-{% block body %}
-    <!--menu-->
-    {% block navbar %}
-    {% include 'nav.html' %}
+<!--content-->
+{% block content %} {% endblock %} 
+
+<!--for flashes-->
+{% for message in get_flashed_messages() %}
+<div class="alert alert-success alert-dismissible">
+    <button type="button"
+            data-dismiss="alert"
+            class="close">&times;</button>
+    {{ message }}
+</div>
+{% endfor %}
+<!--footer-->
+{% block footer %} {% endblock %}
+
+<!--javascript bootstrap-->
+{% block scripts %}
+        {{ super() }}
     {% endblock %}
-
-    <!--content-->
-    {% block content %} 
-    {% endblock %}
 {% endblock %}
-
