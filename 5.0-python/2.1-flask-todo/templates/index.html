@@ -1,0 +1,5 @@
+{% extends 'base.html' %} {% import 'macros.html' as macros %} {% block title%}
+{{ super()}} home {% endblock %}
+
+<!--content-->
+{% block content %} {{ macros.render('This is the giro')}} {% endblock %}

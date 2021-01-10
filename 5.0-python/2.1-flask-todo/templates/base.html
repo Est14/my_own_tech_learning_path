@@ -1,0 +1,17 @@
+{% extends 'bootstrap/base.html' %}
+{% block head%}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <title>{% block title%} TODO | {% endblock %}</title>
+{% endblock %}
+
+{% block body %}
+    <!--menu-->
+    {% block navbar %}
+    {% include 'nav.html' %}
+    {% endblock %}
+
+    <!--content-->
+    {% block content %} 
+    {% endblock %}
+{% endblock %}
+
