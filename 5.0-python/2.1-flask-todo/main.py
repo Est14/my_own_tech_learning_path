@@ -1,16 +1,11 @@
-from flask import Flask
 from flask import render_template, session, redirect, url_for
 from flask import flash
-from flask_bootstrap import Bootstrap
-from flask_wtf import CsrfProtect
 from forms import Login
 import unittest
+from app import create_app
 
 
-app = Flask(__name__)
-bootstrap = Bootstrap(app)
-app.config['SECRET_KEY'] = 'SiulNabetse'
-csrf = CsrfProtect(app)
+app = create_app()
 
 
 @app.cli.command()
