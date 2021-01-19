@@ -1,5 +1,6 @@
 // This module allow us create a server
 const http = require("http");
+const colors = require('colors')
 
 const handleServer = (req, res) => {
   res.writeHead(200);
@@ -10,5 +11,5 @@ const handleServer = (req, res) => {
 const server = http.createServer(handleServer);
 
 server.listen(3000, () => {
-  console.log("Server PORT: 3000");
+  console.log("Server PORT: 3000".yellow);
 });

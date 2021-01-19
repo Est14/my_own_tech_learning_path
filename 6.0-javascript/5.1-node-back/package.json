@@ -1,0 +1,19 @@
+{
+  "name": "node-fundamentals",
+  "version": "0.0.0",
+  "description": "learn about node",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "esteban martinez",
+  "license": "ISC"
+}
