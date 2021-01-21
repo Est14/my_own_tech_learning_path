@@ -19,6 +19,7 @@ app.engine('.hbs', exphbs ({
 }))
 app.set('view engine', '.hbs')
 
+
 // Middleware
 app.use(express.urlencoded({extended: false}))
 app.use(methodOverride('_method'))
