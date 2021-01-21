@@ -6,10 +6,11 @@ const session = require('express-session')
 
 // Initializations 
 const app = express()
+const db = require('./dabases')
 
 
 // Settings 
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 3500)
 app.set('views', path.join(__dirname, 'views'))
 app.engine('.hbs', exphbs ({
     defaultLayout: 'main',
@@ -40,7 +41,7 @@ app.use(require('./routes/users'))
 
 
 // Static files 
-
+app.use(express.static(path.join(__dirname, 'public')))
 
 // Server run
 app.listen(app.get('port'), () => {
