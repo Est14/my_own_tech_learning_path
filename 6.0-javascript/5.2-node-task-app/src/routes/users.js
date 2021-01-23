@@ -1,8 +1,22 @@
 const router = require("express").Router();
 const User = require("../models/Users");
+const passport = require('passport')
 
-router.get("/users/singin", (req, res) => {
+
+
+
+router.get("/users/signin", (req, res) => {
   res.render('users/singin');
+});
+
+router.post('/users/signin', passport.authenticate('local', {
+  successRedirect: '/notes',
+  failureRedirect: '/users/singin',
+  failureFlash: true
+}))
+
+router.get("/users/signup", (req, res) => {
+  res.render('users/singup');
 });
 
 router.post("/users/signup", async (req, res) => {
@@ -42,5 +56,10 @@ router.post("/users/signup", async (req, res) => {
     }
   }
 });
+
+router.get('/users/logout', (req, res) => {
+  req.logOut()
+  res.redirect('/users/signin')
+})
 
 module.exports = router;
