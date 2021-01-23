@@ -1,5 +1,6 @@
+<h1 style="color: aliceblue;" hey! {{ user.name }}</h1></h1>
 <div class="row">
-    
+
     {{#each notes }}
     <div class="col-md-3">
         <div class="card">
@@ -13,22 +14,22 @@
                 <form action="/notes/delete/{{_id}}?_method=DELETE" method="POST">
                     <input type="hidden" name="_method" value="DELETE">
                     <button class="btn btn-danger btn-block btn-sm" type="submit">
-                    Delete
-                </button>
+                        Delete
+                    </button>
                 </form>
             </div>
         </div>
     </div>
     {{else}}
-    <h1 style="color: aliceblue;">hey!</h1>
-    <div class="col-md-3">
-        <div class="card">
-        <div class="card-body">
-            <h5>There are not notes yet.</h5>
-            <div style="height: 10px;"></div>
-            <a href="/notes/add" class="btn btn-success btn-block">Create a new note!</a>
+    <h1 style="color: aliceblue;" hey! {{ user.name }}</h1>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5>There are not notes yet.</h5>
+                    <div style="height: 10px;"></div>
+                    <a href="/notes/add" class="btn btn-success btn-block">Create a new note!</a>
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
-    {{/each}}
+        {{/each}}
 </div>
