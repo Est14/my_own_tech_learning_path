@@ -6,3 +6,7 @@ document.write(paragraph)
 const range = document.querySelector(".range")
 // Modifique attribute
 range.setAttribute('type', 'color')
+
+const title = document.querySelector('.title')
+
+title.setAttribute('contentEditable', 'true')
