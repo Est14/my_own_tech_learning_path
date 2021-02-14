@@ -1,12 +1,24 @@
-// Select by Id
-let  paragraph =  document.getElementById('paragraph')
-document.write(paragraph)
+console.log('*************Elementos del Documento*****************');
+// Esto es todo el mapeado del documento
+console.log(document);
+// Esto es el documento como tal desde el html
+console.log(document.documentElement);
 
-// Select by class
-const range = document.querySelector(".range")
-// Modifique attribute
-range.setAttribute('type', 'color')
+// Obteniendo elementos del html
+console.log(document.getElementById('menu'));
+console.log(document.querySelector("#menu"));
+console.log(document.querySelectorAll("#menu li"));
+console.log(document.querySelectorAll("a"));
+console.log(document.querySelector("#menu"));
+console.log(document.querySelector(".card"));
 
-const title = document.querySelector('.title')
+//Variables para guardar referencias a elementos del DOM
+const $linkDom = document.querySelector(".link-dom")
 
-title.setAttribute('contentEditable', 'true')
+// Obteniendo contenido html por atributos 
+console.log(document.documentElement.getAttribute("lang"));
+console.log(document.querySelector(".link-dom").href);
+console.log(document.querySelector(".link-dom").getAttribute("href"));
+// Pasando valores por medio de atributos a nuestros elementos:
+$linkDom.setAttribute("target", "_blank");
+
