@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
+import Estado from "./components/Estado";
 import Propiedades from "./components/Propiedades";
+import RenderizadoCondicional from "./components/RenderizadoCond"
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
         array={["mango", "Patilla", "Banano"]}
         area = {(num=2) => num * num}
       />
+      <hr/>
+      <Estado/>
+      <hr/>
+      <RenderizadoCondicional />
     </div>
   );
 }
