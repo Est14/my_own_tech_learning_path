@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Propiedades from "./components/Propiedades";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hey man</h1>
+      <hr />
+      <Propiedades
+        string="props_string"
+        numero={10}
+        booleano={true}
+        array={["mango", "Patilla", "Banano"]}
+        area = {(num=2) => num * num}
+      />
     </div>
   );
 }
