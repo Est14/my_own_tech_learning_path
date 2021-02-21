@@ -1,8 +1,10 @@
 import React from "react";
 import "./App.css";
 import Estado from "./components/Estado";
+import Eventos from "./components/Eventos";
 import Propiedades from "./components/Propiedades";
 import RenderizadoCondicional from "./components/RenderizadoCond"
+import RenderizadoEle from "./components/RenderizadoEle";
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
       <Estado/>
       <hr/>
       <RenderizadoCondicional />
+      <hr/>
+      <RenderizadoEle/>
+      <hr></hr>
+      <Eventos />
     </div>
   );
 }
