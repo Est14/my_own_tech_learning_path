@@ -1,0 +1,13 @@
+This is a test
+pizzazz
+
+hat hot hit heat h-t
+silver sliver slider
+
+Metacaracters:
+\.*+-{}[]^$|?():!=
+
+. Broadest match possible // Single character only one
+\ Allows use of Metacaracters as literal characters
+\t Spaces - Tabs
+\n New line

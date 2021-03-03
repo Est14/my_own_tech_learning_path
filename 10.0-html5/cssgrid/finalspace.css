@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.backsquare{
+    background-color: rgb(44, 42, 42);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contaner{
+    width: 70vw;
+    height: 40vw;
+    background-color: rgb(101, 71, 129);
+    position: relative;
+    perspective: 1000px;
+
+}
+
+.head{
+    width: 80px;
+    height: 100px;
+    background-color: #F5B1A7;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
