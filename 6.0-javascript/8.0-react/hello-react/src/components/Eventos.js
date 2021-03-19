@@ -78,3 +78,18 @@ export  class EventosES7 extends Component {
     );
   }
 }
+
+export class MasSobreEventos extends Component{
+
+  handleClick = (e) => {
+    console.log(e);
+  }
+  render(){
+    return (
+      <div>
+        <h2>Mas sobre eventos</h2>
+        <button onClick={this.handleClick}></button>
+      </div>
+    )
+  }
+}
