@@ -6,6 +6,6 @@ public class Arrays {
 
         // Array of two dimen first rows second columns
         String[][] cities = new String[4][2];
-        byte i = 1; byte j = 1; byte k = i+j;
+
     }
 }
