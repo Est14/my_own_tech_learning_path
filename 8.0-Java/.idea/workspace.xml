@@ -1,12 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2f616ba-0771-4077-88a6-dc2cd3ac17c4" name="Default Changelist" comment="">
+    <list default="true" id="994dc5bb-cefc-4d5c-bf20-df8988bc64ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Programing/src/TestArgumentosVariables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../6.0-javascript/8.0-react/platzi-badges" beforeDir="false" afterPath="$PROJECT_DIR$/../6.0-javascript/8.0-react/platzi-badges" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aritmetica/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aritmetica/src/Operaciones/Aritmetica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aritmetica/src/Operaciones/PruebaArit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/IUM/UIMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/model/AppointmentDoctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/model/AppointmentsNurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/model/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/model/ISchedulable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/model/Nurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clinica/src/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContextoStatic/src/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContextoStatic/src/test/TestPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios_de_práctica_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios_de_práctica_1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios_de_práctica_1/src/EjerciciosUno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulamiento/src/ActividadForo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulamiento/src/dominio/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulamiento/src/test/PersonaPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos/src/Caja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentos/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/src/Clases/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/src/Clases/PruebaPersona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/src/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/src/PrimitiveValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWoldJava/src/Scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herencia/src/domain/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herencia/src/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herencia/src/domain/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Herencia/src/test/TestHerencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/JavaLinkedin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/out/production/JavaLinkedin/Challen1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/out/production/JavaLinkedin/Decision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/out/production/JavaLinkedin/Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/out/production/JavaLinkedin/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/out/production/JavaLinkedin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/out/production/JavaLinkedin/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/out/production/JavaLinkedin/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/src/Challen1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/src/Decision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/src/Functions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/src/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLinkedin/src/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/Java_platzi_fundamentals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/out/production/Java_platzi_fundamentals/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/out/production/Java_platzi_fundamentals/Casting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/out/production/Java_platzi_fundamentals/Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/out/production/Java_platzi_fundamentals/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/out/production/Java_platzi_fundamentals/MathClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/out/production/Java_platzi_fundamentals/Swich.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/out/production/Java_platzi_fundamentals/WhileLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/src/Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/src/Casting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/src/Functions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/src/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/src/MathClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/src/Swich.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_platzi_fundamentals/src/WhileLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/src/main/java/com/platzi/javaTest/util/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest/src/test/java/com/platzi/javaTest/util/StringUtilTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +99,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1qaEwtAs37Mu1vX80bOG4DvIqVt" />
+  <component name="ProjectId" id="1ts0v56YszWBBmHCKS3ryqhpp3v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,30 +108,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Programing" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2f616ba-0771-4077-88a6-dc2cd3ac17c4" name="Default Changelist" comment="" />
-      <created>1617309545342</created>
+      <changelist id="994dc5bb-cefc-4d5c-bf20-df8988bc64ed" name="Default Changelist" comment="" />
+      <created>1623542718492</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617309545342</updated>
+      <updated>1623542718492</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
