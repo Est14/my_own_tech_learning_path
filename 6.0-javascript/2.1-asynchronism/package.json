@@ -1,5 +1,5 @@
 {
-  "name": "2.1-asynchronism",
+  "name": "clear",
   "version": "1.0.0",
   "description": "Trabajar con asincronismo en Js",
   "main": "src/index.js",
@@ -15,5 +15,8 @@
     "async"
   ],
   "author": "Esteban Martinez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

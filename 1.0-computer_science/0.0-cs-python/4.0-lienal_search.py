@@ -1,7 +1,7 @@
 import random
 
 def lineal_search(list, objetive):
-    math = False 
+    math=False 
 
     for element in list:
         if element == objetive:
