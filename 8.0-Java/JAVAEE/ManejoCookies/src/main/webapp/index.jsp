@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Cookies Handle</title>
 </head>
 <body>
-<h1><%= "Hello World! from Java" %>
+<h1><%= "Cookies Handle" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="cookie-servlet">Servlet-cookies</a>
 </body>
 </html>

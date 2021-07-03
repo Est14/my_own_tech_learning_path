@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Http Session</title>
 </head>
 <body>
-<h1><%= "Hello World! from Java" %>
+<h1><%= "Working with Http Session" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="httpSession-servlet">Hey click here</a>
 </body>
 </html>
