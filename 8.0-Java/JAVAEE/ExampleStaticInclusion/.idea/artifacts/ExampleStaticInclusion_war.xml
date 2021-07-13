@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ExampleStaticInclusion:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ExampleStaticInclusion</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ExampleStaticInclusion-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ExampleStaticInclusion:war exploded" />
+    </root>
+  </artifact>
+</component>
