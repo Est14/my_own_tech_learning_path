@@ -60,7 +60,7 @@
                             <div class="form-group">
                                 <label class="form-label">
                                     <span>Balance: </span>
-                                    <input type="number" class="form-control" name="balance" required value="${client.balance}">
+                                    <input type="number" class="form-control" name="balance" required value="${client.balance}" step="any">
                                 </label>
                             </div>
                         </div>

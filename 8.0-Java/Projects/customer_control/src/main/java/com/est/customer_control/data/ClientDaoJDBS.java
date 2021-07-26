@@ -141,7 +141,7 @@ public class ClientDaoJDBS {
         }
         finally{
             try {
-                ConnectionOne.close(rs);
+                ConnectionOne.close(ps);
                 ConnectionOne.close(conn);
             } catch (SQLException throwables) {
                 throwables.printStackTrace();

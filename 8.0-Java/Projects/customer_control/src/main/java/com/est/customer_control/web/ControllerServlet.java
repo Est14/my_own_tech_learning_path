@@ -17,15 +17,16 @@ public class ControllerServlet extends HttpServlet {
         String action1 = request.getParameter("action");
 
         if (action1 != null) {
-            if(action1.equals("edit"))
+            if (action1.equals("edit")) {
                 this.edit(request, response);
-            else{
+            } else {
                 this.defaultAction(request, response);
             }
         } else {
             this.defaultAction(request, response);
         }
     }
+
 
     private void edit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int idClient = Integer.parseInt(request.getParameter("idClient"));
@@ -52,9 +53,23 @@ public class ControllerServlet extends HttpServlet {
         if (action1.equals("insert")) {
             this.insert(request, response);
         }
-
+        else if (action1.equals("modify")) {
+            this.update(request, response);
+        }
 
         this.defaultAction(request, response);
+
+    }
+
+
+    private void update(HttpServletRequest request, HttpServletResponse response) {
+        int idClient = Integer.parseInt(request.getParameter("idClient"));
+        String name = request.getParameter("name");
+        String lastName = request.getParameter("lastName");
+        String email = request.getParameter("email");
+        String phone = request.getParameter("phone");
+        double balance = Double.parseDouble(request.getParameter("balance"));
+        new ClientDaoJDBS().update(new Client(idClient, name, lastName, email, phone, balance));
 
     }
 
